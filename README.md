@@ -4,3 +4,4 @@ An implementation of Linear and Non-Linear methods for perspective camera calibr
 TODOs
 - [ ] Linear method using SVD and QR decomposition
 - [ ] Non-Linear method using optimisation techniques (Levenberg–Marquardt method)
+- [ ] [Open3D](http://www.open3d.org) for drawing the camera poses
