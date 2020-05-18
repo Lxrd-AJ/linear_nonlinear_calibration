@@ -48,6 +48,14 @@ if __name__ == "__main__":
         idx += 2
         
 
+    """
+    - TODO: 
+
+        1.  Compute image center from orthocenter! 2.  Compute the Intrinsic matrix (6.8)!
+        3.  Compute solution with SVD!
+        4.  Compute gamma and alpha!
+        5.  Compute R (and normalize)! 6.  Compute fx and and Tz!
+    """
     # np.set_printoptions(threshold=np.inf, linewidth=200) #debugging only
     # to solve for P s.t AP = 0
     AA = A.T @ A
